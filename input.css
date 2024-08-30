@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    html {
+        font-family: 'SUSE',sans-serif;
+    }
+
+    .cuisines:hover ~ .cuisine-list {
+        display:grid;
+    }
+    .cuisine-list:hover {
+        display:grid;
+    }
+    .types:hover ~ .type-list {
+        display:grid;
+    }
+    .type-list:hover {
+        display:grid;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="overflow-y-hidden lg:overflow-y-visible overflow-x-hidden">
+    <nav class="flex justify-between items-center p-6 h-24">
+      <a class="font-bold text-3xl" href="index.html">Reciply</a>
+      <div class="relative flex items-center gap-6">
+        <p class="cuisines text-xl cursor-pointer hover:font-bold">Cuisines</p>
+        <ul
+          class="cuisine-list hidden absolute bg-white bg-opacity-50 backdrop-blur-sm border shadow-xl w-48 h-48 top-7 -right-6 p-3 grid grid-cols-2 justify-center items-center  md:w-96 md:h-60"
+        >
+          <a class="cursor-pointer hover:font-bold text-center" href="">African</a>
+          <a class="cursor-pointer hover:font-bold text-center" href="">French</a>
+          <a class="cursor-pointer hover:font-bold text-center" href="">Chinese</a>
+          <a class="cursor-pointer hover:font-bold text-center" href="">German</a>
+          <a class="cursor-pointer hover:font-bold text-center" href="">Greek</a>
+          <a class="cursor-pointer hover:font-bold text-center" href="">Indian</a>
+          <a class="cursor-pointer hover:font-bold text-center" href="">Japanese</a>
+          <a class="cursor-pointer hover:font-bold text-center" href="">Italian</a>
+        </ul>
+        <p class="types text-xl cursor-pointer hover:font-bold">Types</p>
+        <ul
+        class="type-list hidden absolute bg-white bg-opacity-50 backdrop-blur-sm border shadow-lg w-48 h-48 top-7 -right-6 p-3 grid grid-cols-2 justify-center items-center md:w-96 md:h-60"
+      >
+        <a class="cursor-pointer hover:font-bold text-center" href="">Main Course</a>
+        <a class="cursor-pointer hover:font-bold text-center" href="">Side Dish</a>
+        <a class="cursor-pointer hover:font-bold text-center" href="">Breakfast</a>
+        <a class="cursor-pointer hover:font-bold text-center" href="">Snack</a>
+        <a class="cursor-pointer hover:font-bold text-center" href="">Drink</a>
+        <a class="cursor-pointer hover:font-bold text-center" href="">Dessert</a>
+        <a class="cursor-pointer hover:font-bold text-center" href="">Salad</a>
+        <a class="cursor-pointer hover:font-bold text-center" href="">Soup</a>
+      </ul>
+      </div>
+    </nav>
+    <main
+      class="grid grid-cols-1 grid-rows-2 items-center justify-center p-6 md:grid-cols-2 md:grid-rows-1"
+    >
+      <div class="flex flex-col gap-6 items-center justify-center">
+        <h1 class="text-3xl font-semibold">Search For Recipes</h1>
+        <div
+          class="flex justify-center items-center gap-0 h-12 w-96 shadow-lg md:w-4/5 max-w-[660px]"
+        >
+          <input
+            type="text"
+            class="p-2 h-full w-full border text-lg focus:outline-none"
+            placeholder="Search..."
+          />
+          <button
+            class="h-full w-16 bg-orange-600 text-white hover:bg-orange-700 text-3xl text-center"
+          >
+            <i class="bx bx-search-alt mt-2"></i>
+          </button>
+        </div>
+      </div>
+      <div class="main-image">
+        <img src="images/main-image.png" class="" />
+      </div>
+    </main>
+    <footer class="h-10 text-center p-6 lg:pt-16 lg:h-35">
+      <footer>
+        <p>
+          &copy; 2024 Reciply. All rights reserved. This website and its
+          content, including but not limited to text, images, and design, are
+          the property of Reciply and are protected by copyright laws.
+          Unauthorized use, reproduction, or distribution of any part of this
+          site is strictly prohibited. For permissions or inquiries, please
+          contact us.
+        </p>
+      </footer>
+    </footer>
+  </body>
+</html>
