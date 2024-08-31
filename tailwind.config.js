@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         pixelify: 'Pixelify sans'
+      },
+      backgroundImage: {
+        foodbg: "url('/images/food-bg.png')"
       }
     },
   },

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Reciply</title>
+  </head>
+  <body>
+    <nav class="flex justify-between items-center p-6 h-24">
+      <a class="font-bold text-3xl" href="index.html">Reciply</a>
+      <div class="relative flex items-center gap-6">
+        <p class="cuisines text-xl cursor-pointer hover:font-bold">Cuisines</p>
+        <ul
+          class="cuisine-list hidden absolute bg-white border shadow-xl w-48 h-48 top-7 -right-6 p-3 grid-cols-2 justify-center items-center md:w-96 md:h-60 z-10"
+        >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >African</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >French</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Chinese</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >German</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Greek</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Indian</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Japanese</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Italian</a
+          >
+        </ul>
+        <p class="types text-xl cursor-pointer hover:font-bold">Types</p>
+        <ul
+          class="type-list hidden absolute bg-white border shadow-lg w-48 h-48 top-7 -right-6 p-3 grid-cols-2 justify-center items-center md:w-96 md:h-60 z-10"
+        >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Main Course</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Side Dish</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Breakfast</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Snack</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Drink</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Dessert</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href=""
+            >Salad</a
+          >
+          <a class="cursor-pointer hover:font-bold text-center" href="">Soup</a>
+        </ul>
+      </div>
+    </nav>
+    <div class="w-full relative">
+      <h1
+        class="text-center text-3xl font-bold border-b-4 border-black mt-12 pb-12"
+      >
+        Results for French recipes
+      </h1>
+      <i
+        class="bx bxs-star absolute text-[50px] top-[50%] right-[50%] transform translate-x-[50%] translate-y-[30%] bg-white"
+      ></i>
+      <input type="text" class="border-b border-b-black p-1 w-48 h-12 focus:outline-none text-lg md:w-96 md:ml-3 xl:w-[500px] xl:ml-3" placeholder="Filter recipes...">
+    </div>
+    <main
+      class="main-results h-screen w-full p-6 pb-10 mt-6 grid grid-cols-1 justify-center items-center gap-3 md:grid-cols-2 xl:grid-cols-3"
+    >
+      <div class="flex items-center justify-center p-3">
+        <div
+          class="h-[500px] w-96 shadow-xl rounded-3xl overflow-hidden bg-[#F5F2F2]"
+        >
+          <img src="images/food-bg.png" class="h-60 w-full" />
+          <h1 class="font-bold text-4xl m-3">Pasta</h1>
+          <p class="m-3 text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            tenetur libero. Molestiae!
+          </p>
+          <a
+            href=""
+            class="m-3 bg-[#C0EFFF] text-slate-700 font-bold inline-block px-8 py-3 rounded text-center"
+            >Get The Recipe</a
+          >
+        </div>
+      </div>
+      <div class="flex items-center justify-center p-3">
+        <div
+          class="h-[500px] w-96 shadow-xl rounded-3xl overflow-hidden bg-[#F5F2F2]"
+        >
+          <img src="images/food-bg.png" class="h-60 w-full" />
+          <h1 class="font-bold text-4xl m-3">Pasta</h1>
+          <p class="m-3 text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            tenetur libero. Molestiae!
+          </p>
+          <a
+            href=""
+            class="m-3 bg-[#C0EFFF] text-slate-700 font-bold inline-block px-8 py-3 rounded text-center"
+            >Get The Recipe</a
+          >
+        </div>
+      </div>
+      <div class="flex items-center justify-center p-3">
+        <div
+          class="h-[500px] w-96 shadow-xl rounded-3xl overflow-hidden bg-[#F5F2F2]"
+        >
+          <img src="images/food-bg.png" class="h-60 w-full" />
+          <h1 class="font-bold text-4xl m-3">Pasta</h1>
+          <p class="m-3 text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            tenetur libero. Molestiae!
+          </p>
+          <a
+            href=""
+            class="m-3 bg-[#C0EFFF] text-slate-700 font-bold inline-block px-8 py-3 rounded text-center"
+            >Get The Recipe</a
+          >
+        </div>
+      </div>
+      <div class="flex items-center justify-center p-3">
+        <div
+          class="h-[500px] w-96 shadow-xl rounded-3xl overflow-hidden bg-[#F5F2F2]"
+        >
+          <img src="images/food-bg.png" class="h-60 w-full" />
+          <h1 class="font-bold text-4xl m-3">Pasta</h1>
+          <p class="m-3 text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            tenetur libero. Molestiae!
+          </p>
+          <a
+            href=""
+            class="m-3 bg-[#C0EFFF] text-slate-700 font-bold inline-block px-8 py-3 rounded text-center"
+            >Get The Recipe</a
+          >
+        </div>
+      </div>
+      <div class="flex items-center justify-center p-3">
+        <div
+          class="h-[500px] w-96 shadow-xl rounded-3xl overflow-hidden bg-[#F5F2F2]"
+        >
+          <img src="images/food-bg.png" class="h-60 w-full" />
+          <h1 class="font-bold text-4xl m-3">Pasta</h1>
+          <p class="m-3 text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            tenetur libero. Molestiae!
+          </p>
+          <a
+            href=""
+            class="m-3 bg-[#C0EFFF] text-slate-700 font-bold inline-block px-8 py-3 rounded text-center"
+            >Get The Recipe</a
+          >
+        </div>
+      </div>
+      <div class="flex items-center justify-center p-3">
+        <div
+          class="h-[500px] w-96 shadow-xl rounded-3xl overflow-hidden bg-[#F5F2F2]"
+        >
+          <img src="images/food-bg.png" class="h-60 w-full" />
+          <h1 class="font-bold text-4xl m-3">Pasta</h1>
+          <p class="m-3 text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            tenetur libero. Molestiae!
+          </p>
+          <a
+            href=""
+            class="m-3 bg-[#C0EFFF] text-slate-700 font-bold inline-block px-8 py-3 rounded text-center"
+            >Get The Recipe</a
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
