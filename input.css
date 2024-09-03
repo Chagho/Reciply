@@ -26,4 +26,10 @@
         background-positon: left;
         background-repeat: ;
     }
+    .recipe-bg {
+        background: url('/images/main-image.png');
+        background-positon: left;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
 }

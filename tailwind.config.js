@@ -8,7 +8,11 @@ module.exports = {
       },
       backgroundImage: {
         foodbg: "url('/images/food-bg.png')"
-      }
+      },
+      colors: {
+        mainblue: '#C0EFFF',
+        itembg: '#F5F2F2'
+      },
     },
   },
   plugins: [],
