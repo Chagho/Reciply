@@ -7,11 +7,12 @@ module.exports = {
         pixelify: 'Pixelify sans'
       },
       backgroundImage: {
-        foodbg: "url('/images/food-bg.png')"
+        foodbg: "url('/images/food-bg.png')",
+        recipebg: "url('/images/main-image.png')",
       },
       colors: {
         mainblue: '#C0EFFF',
-        itembg: '#F5F2F2'
+        itembg: '#F5F2F2',
       },
     },
   },
