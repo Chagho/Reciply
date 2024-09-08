@@ -17,29 +17,29 @@
       <div class="relative flex items-center gap-6">
         <p class="cuisines text-xl cursor-pointer hover:font-bold">Cuisines</p>
         <ul
-          class="cuisine-list hidden absolute bg-white bg-opacity-50 backdrop-blur-sm border shadow-xl w-48 h-48 top-7 -right-6 p-3  grid-cols-2 justify-center items-center  md:w-96 md:h-60"
+          class="cuisine-list hidden absolute bg-white bg-opacity-50 backdrop-blur-sm border shadow-xl w-48 h-48 top-7 -right-6 p-3  grid-cols-2 justify-center items-center  md:w-96 md:h-60 z-10"
         >
-          <a class="cursor-pointer hover:font-bold text-center" href="results.html">African</a>
-          <a class="cursor-pointer hover:font-bold text-center" href="recipe.html">French</a>
-          <a class="cursor-pointer hover:font-bold text-center" href="">Chinese</a>
-          <a class="cursor-pointer hover:font-bold text-center" href="">German</a>
-          <a class="cursor-pointer hover:font-bold text-center" href="">Greek</a>
-          <a class="cursor-pointer hover:font-bold text-center" href="">Indian</a>
-          <a class="cursor-pointer hover:font-bold text-center" href="">Japanese</a>
+          <a class="cuisine cursor-pointer hover:font-bold text-center" href="">African</a>
+          <a class="cuisine cursor-pointer hover:font-bold text-center" href="">French</a>
+          <a class="cuisine cursor-pointer hover:font-bold text-center" href="">Chinese</a>
+          <a class="cuisine cursor-pointer hover:font-bold text-center" href="">German</a>
+          <a class="cuisine cursor-pointer hover:font-bold text-center" href="">Greek</a>
+          <a class="cuisine cursor-pointer hover:font-bold text-center" href="">Indian</a>
+          <a class="cuisine cursor-pointer hover:font-bold text-center" href="">Japanese</a>
           <a class="cursor-pointer hover:font-bold text-center" href="">Italian</a>
         </ul>
         <p class="types text-xl cursor-pointer hover:font-bold">Types</p>
         <ul
-        class="type-list hidden absolute bg-white bg-opacity-50 backdrop-blur-sm border shadow-lg w-48 h-48 top-7 -right-6 p-3  grid-cols-2 justify-center items-center md:w-96 md:h-60"
+        class="type-list hidden absolute bg-white bg-opacity-50 backdrop-blur-sm border shadow-lg w-48 h-48 top-7 -right-6 p-3  grid-cols-2 justify-center items-center md:w-96 md:h-60 z-10"
       >
-        <a class="cursor-pointer hover:font-bold text-center" href="">Main Course</a>
-        <a class="cursor-pointer hover:font-bold text-center" href="">Side Dish</a>
-        <a class="cursor-pointer hover:font-bold text-center" href="">Breakfast</a>
-        <a class="cursor-pointer hover:font-bold text-center" href="">Snack</a>
-        <a class="cursor-pointer hover:font-bold text-center" href="">Drink</a>
-        <a class="cursor-pointer hover:font-bold text-center" href="">Dessert</a>
-        <a class="cursor-pointer hover:font-bold text-center" href="">Salad</a>
-        <a class="cursor-pointer hover:font-bold text-center" href="">Soup</a>
+        <a class="type cursor-pointer hover:font-bold text-center" href="">Main Course</a>
+        <a class="type cursor-pointer hover:font-bold text-center" href="">Side Dish</a>
+        <a class="type cursor-pointer hover:font-bold text-center" href="">Breakfast</a>
+        <a class="type cursor-pointer hover:font-bold text-center" href="">Snack</a>
+        <a class="type cursor-pointer hover:font-bold text-center" href="">Drink</a>
+        <a class="type cursor-pointer hover:font-bold text-center" href="">Dessert</a>
+        <a class="type cursor-pointer hover:font-bold text-center" href="">Salad</a>
+        <a class="type cursor-pointer hover:font-bold text-center" href="">Soup</a>
       </ul>
       </div>
     </nav>
@@ -52,12 +52,13 @@
           class="flex justify-center items-center gap-0 h-12 w-96 shadow-lg md:w-4/5 max-w-[660px]"
         >
           <input
+            id="searchBar"
             type="text"
             class="p-2 h-full w-full border text-lg focus:outline-none"
             placeholder="Search..."
           />
           <button
-            class="h-full w-16 bg-orange-600 text-white hover:bg-orange-700 text-3xl text-center"
+            class="searchBtn h-full w-16 bg-orange-600 text-white hover:bg-orange-700 text-3xl text-center"
           >
             <i class="bx bx-search-alt mt-2"></i>
           </button>
@@ -79,5 +80,6 @@
         </p>
       </footer>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
